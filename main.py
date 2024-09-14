@@ -1,16 +1,19 @@
-# This is a sample Python script.
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+from tabulate import tabulate
+pd.options.display.width = 0
 
-# Press Ctrl+F5 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+df = pd.read_csv('vgsales/vgsales.csv')
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
 
+# Tratando NULLS
+df['Publisher'] = df['Publisher'].fillna('Unknown')
+df['Year'] = df['Year'].fillna(0000)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('Leandro x Fabiana')
+# Modificando o tipo do Year
+df['Year'] = df['Year'].astype(int)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(df.head(10))
