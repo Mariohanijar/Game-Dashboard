@@ -469,7 +469,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 468,Gears of War: Ultimate Edition,XOne,2015,Shooter,Microsoft Game Studios,2.38,0.32,0,0.31,3
 469,NBA 2K13,X360,2012,Sports,Take-Two Interactive,2.6,0.21,0.01,0.19,3
 470,Dragon Ball Z: Budokai Tenkaichi 3,PS2,2007,Fighting,Atari,1.15,0,0.76,1.09,3
-471,wwe Smackdown vs. Raw 2006,PS2,N/A,Fighting,N/A,1.57,1.02,0,0.41,3
+471,wwe Smackdown vs. Raw 2006,PS2,2006,Fighting,THQ,1.57,1.02,0,0.41,3
 472,Middle-Earth: Shadow of Mordor,PS4,2014,Action,Warner Bros. Interactive Entertainment,1.01,1.41,0.05,0.53,2.99
 473,Star Fox,SNES,1993,Shooter,Nintendo,1.61,0.51,0.8,0.07,2.99
 474,The Sims: Livin Large,PC,2000,Misc,Electronic Arts,1.67,1.18,0,0.13,2.99
@@ -3048,7 +3048,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 3048,NHL 13,X360,2012,Sports,Electronic Arts,0.51,0.11,0,0.05,0.67
 3049,Borderlands: The Pre-Sequel,PS3,2014,Shooter,Take-Two Interactive,0.25,0.26,0.05,0.11,0.67
 3050,The Sims 3: High-End Loft Stuff,PC,2010,Simulation,Electronic Arts,0.01,0.53,0,0.12,0.67
-3051,"The Chronicles of Narnia: The Lion, The Witch and The Wardrobe",GBA,N/A,Action,Disney Interactive Studios,0.48,0.18,0,0.01,0.67
+3051,"The Chronicles of Narnia: The Lion, The Witch and The Wardrobe",GBA,2005,Action,Disney Interactive Studios,0.48,0.18,0,0.01,0.67
 3052,Zaidan Houjin Nippon Kanji Nouryoku Kentei Kyoukai Koushiki Soft: 200 Mannin no KanKen: Tokoton Kanji Nou,DS,2006,Misc,IE Institute,0,0,0.66,0,0.66
 3053,Pro Pinball: Big Race USA,PS,1999,Simulation,Take-Two Interactive,0.37,0.25,0,0.04,0.66
 3054,NFL Street,XB,2004,Sports,Electronic Arts,0.49,0.15,0,0.02,0.66
@@ -5301,7 +5301,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 5301,SimCity Creator,DS,2008,Simulation,Electronic Arts,0.3,0.03,0,0.03,0.35
 5302,Hannah Montana: The Movie,Wii,2009,Adventure,Disney Interactive Studios,0.13,0.18,0,0.04,0.35
 5303,Angry Birds Star Wars,Wii,2013,Strategy,Activision,0.21,0.1,0,0.03,0.35
-5304,Dragon Ball Z: Budokai Tenkaichi 2 (JP sales),Wii,N/A,Action,N/A,0.15,0.05,0.14,0.01,0.35
+5304,Dragon Ball Z: Budokai Tenkaichi 2 (JP sales),Wii,2007,Action,Namco Bandai Games,0.15,0.05,0.14,0.01,0.35
 5305,Mega Man ZX Advent,DS,2007,Platform,Capcom,0.23,0,0.09,0.02,0.35
 5306,Jikkyou Powerful Pro Yakyuu 2000,N64,2000,Sports,Konami Digital Entertainment,0,0,0.29,0.06,0.35
 5307,Sniper: Ghost Warrior 2,PS3,2013,Shooter,City Interactive,0.05,0.19,0.03,0.07,0.35
@@ -6194,7 +6194,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 6194,Mega Man 7,SNES,1995,Platform,Laguna,0.03,0.01,0.23,0.01,0.28
 6195,NCAA March Madness 2005,XB,2004,Sports,Electronic Arts,0.21,0.06,0,0.01,0.28
 6196,Shadows of the Damned,PS3,2011,Action,Electronic Arts,0.11,0.09,0.04,0.04,0.28
-6197,"The Chronicles of Narnia: The Lion, The Witch and The Wardrobe",GC,N/A,Action,Disney Interactive Studios,0.22,0.06,0,0.01,0.28
+6197,"The Chronicles of Narnia: The Lion, The Witch and The Wardrobe",GC,2005,Action,Disney Interactive Studios,0.22,0.06,0,0.01,0.28
 6198,NBA In The Zone,PS,1995,Sports,Konami Digital Entertainment,0.16,0.11,0,0.02,0.28
 6199,Corvette,GBA,2003,Racing,TDK Mediactive,0.2,0.07,0,0.01,0.28
 6200,F1 ROC: Race of Champions,SNES,1992,Sports,Ocean,0,0,0.28,0,0.28
@@ -6271,7 +6271,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 6271,Rapala Pro Bass Fishing 2010,PS3,2010,Sports,Activision,0.18,0.06,0,0.03,0.27
 6272,Shin Nippon Pro Wrestling: Toukon Retsuden 2,PS,1996,Fighting,Tomy Corporation,0,0,0.26,0.02,0.27
 6273,Dragon Ball Z: Budokai 2,GC,2004,Fighting,Atari,0.21,0.06,0,0.01,0.27
-6274,The Legend of Zelda: The Minish Cap(weekly JP sales),GBA,N/A,Action,N/A,0,0,0.27,0.01,0.27
+6274,The Legend of Zelda: The Minish Cap(weekly JP sales),GBA,2004,Action,N/A,0,0,0.27,0.01,0.27
 6275,Motocross Maniacs Advance,GBA,2002,Racing,Konami Digital Entertainment,0.2,0.07,0,0,0.27
 6276,Resident Evil 2: Dual Shock Edition,PS,1998,Action,Capcom,0,0,0.26,0.02,0.27
 6277,Dynasty Warriors,PS,1997,Action,Tecmo Koei,0.09,0.06,0.11,0.02,0.27
@@ -9748,7 +9748,6 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 9748,MotoGP 14,PS3,2014,Racing,Milestone S.r.l.,0.04,0.06,0,0.02,0.12
 9749,Cars 2,PSP,2011,Racing,Disney Interactive Studios,0.1,0.01,0,0.01,0.12
 9750,Major League Baseball 2K8 Fantasy All-Stars,DS,2008,Sports,Take-Two Interactive,0.11,0,0,0.01,0.12
-9751,Super Robot Wars OG Saga: Masou Kishin II - Revelation of Evil God,PSP,N/A,Strategy,N/A,0,0,0.12,0,0.12
 9752,Mobile Suit Gundam Seed: Rengou vs. Z.A.F.T. Portable,PSP,2007,Shooter,Namco Bandai Games,0,0,0.12,0,0.12
 9753,San Goku Shi V,SAT,1996,Strategy,Tecmo Koei,0,0,0.12,0,0.12
 9754,Puzzle Kingdoms,Wii,2009,Puzzle,Zoo Digital Publishing,0.11,0,0,0.01,0.12
@@ -10241,7 +10240,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 10241,Michael Phelps: Push the Limit,X360,2011,Sports,505 Games,0.09,0.01,0,0.01,0.11
 10242,Breakout,PS,1999,Puzzle,Hasbro Interactive,0.06,0.04,0,0.01,0.11
 10243,Frogger: Helmet Chaos,PSP,2005,Platform,Konami Digital Entertainment,0.1,0,0,0.01,0.11
-10244,AKB48+Me,3DS,2012,Action,Unknown,0,0,0.11,0,0.11
+
 10245,Touch Detective 2 1/2,DS,2007,Adventure,505 Games,0.09,0,0.01,0.01,0.11
 10246,Alias,PS2,2004,Action,Acclaim Entertainment,0.05,0.04,0,0.01,0.11
 10247,Planet 51,X360,2009,Action,Sega,0.07,0.03,0,0.01,0.11
@@ -16197,7 +16196,6 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 16198,Legoland,PC,1999,Action,LEGO Media,0,0.01,0,0,0.01
 16199,Rave Master: Special Attack Force!,GBA,2002,Fighting,Konami Digital Entertainment,0.01,0,0,0,0.01
 16200,Simple 2000 Series Vol. 120: The Saigo no Nippon Tsuwamono,PS2,2007,Strategy,D3Publisher,0,0,0.01,0,0.01
-16201,AKB1/48: Idol to Guam de Koishitara...,X360,N/A,Misc,N/A,0,0,0.01,0,0.01
 16202,Casper,GBA,2002,Adventure,Microids,0.01,0,0,0,0.01
 16203,Hyakka Yakou,PSV,2015,Action,Unknown,0,0,0.01,0,0.01
 16204,Adventure Time: The Secret of the Nameless,X360,2014,Adventure,Little Orbit,0.01,0,0,0,0.01
