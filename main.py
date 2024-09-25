@@ -32,4 +32,4 @@ df_atualizada2['Year'] = df_atualizada2['Year'].astype(int)
 tenMostSold = df.groupby(['Name'])['Global_Sales'].sum().nlargest(10)
 
 print(tenMostSold)
-#print(df_atualizada2.head(20))
+#print(df_atualizada2.head(20))sfds
