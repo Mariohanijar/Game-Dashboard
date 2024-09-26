@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import openpyxl as xl
 
 pd.options.display.width = 0
 pd.set_option('display.max_rows', None)
@@ -29,10 +30,9 @@ df['Year'] = df['Year'].astype(int)
 df = df.drop_duplicates()
 
 # Excluir anos que estão com muita falta de dados
-df = df[df.Year != 2017]
-df = df[df.Year != 2020]
+df = df[(df.Year != 2017) & (df.Year != 2020)]
 
 # Salvar o dataframa tratado
-csv_file_path = "clean-data/clean-dataframe.csv"
-df.to_csv(csv_file_path, index=False)
+excel_file_path = "clean-data/clean-dataframe.xlsx"
+df.to_excel(excel_file_path, index=False)
 
