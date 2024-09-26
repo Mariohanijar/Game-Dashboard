@@ -7,29 +7,31 @@ pd.options.display.width = 0
 pd.set_option('display.max_rows', None)
 
 df = pd.read_csv('vgsales/vgsales.csv')
+
 # Substituir "Unknown" por NaN na coluna 'publisher'
 df['Publisher'] = df['Publisher'].replace("Unknown", np.nan)
 
-df_clean_data_year = pd.read_csv('clean-data/clean-data.csv')
+#Adicionando arquivos com os dados tratados
+df_clean_data_year = pd.read_csv('clean-data/clean-data-year.csv')
 df_clean_data_publisher = pd.read_csv('clean-data/clean-data-publisher.csv')
 
 # Tratando NULLS
-df_atualizada = pd.merge(df, df_clean_data_year, on="Name", how="left", suffixes=("", "_comp"))
-df_atualizada['Year'] = df_atualizada['Year'].fillna(df_atualizada['Year_comp'])
-df_atualizada.drop(columns=['Year_comp'], inplace=True)
+df = pd.merge(df, df_clean_data_year, on="Name", how="left", suffixes=("", "_comp"))
+df['Year'] = df['Year'].fillna(df['Year_comp'])
+df.drop(columns=['Year_comp'], inplace=True)
 
-df_atualizada2 = pd.merge(df_atualizada, df_clean_data_publisher, on="Name", how="left", suffixes=("", "_comp"))
-df_atualizada2['Publisher'] = df_atualizada2['Publisher'].fillna(df_atualizada2['Publisher_comp'])
-df_atualizada2.drop(columns=['Publisher_comp'], inplace=True)
-
-print(df_atualizada2[df_atualizada2.isnull().any(axis=1)])
-#print(df_atualizada2[(df_atualizada2['Publisher'] == "Unknown")])
-#print(df_atualizada2.isnull().sum())
+df = pd.merge(df, df_clean_data_publisher, on="Name", how="left", suffixes=("", "_comp"))
+df['Publisher'] = df['Publisher'].fillna(df['Publisher_comp'])
+df.drop(columns=['Publisher_comp'], inplace=True)
 
 # Modificando o tipo do Year
-df_atualizada2['Year'] = df_atualizada2['Year'].astype(int)
-#gta = df[(df_atualizada2['Name'] == 'Grand Theft Auto V')]
-tenMostSold = df.groupby(['Name'])['Global_Sales'].sum().nlargest(10)
+df['Year'] = df['Year'].astype(int)
 
-print(tenMostSold)
-#print(df_atualizada2.head(20))sfdscxvvcx
+#Excluindo todas as duplicatas
+df = df.drop_duplicates()
+
+# Excluir anos que estão com muita falta de dados
+df = df[df.Year != 2017]
+df = df[df.Year != 2020]
+
+
