@@ -19,7 +19,7 @@
 # COMO EXECUTAR
 - ##### Use o git clone para pegar o arquivo do programa
 ```s
-    git clone https://github.com/Mariohanijar/Game-Dashboard/blob/main/main.py
+    git clone https://github.com/Mariohanijar/Game-Dashboard.git
 ```
 
 - ##### Executando o código na IDE de sua escolha, ele irá gerar o arquivo excel com a database tratada e pronta para análise
